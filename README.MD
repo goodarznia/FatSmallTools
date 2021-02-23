@@ -1,14 +1,13 @@
 # FatSmallTools
-一系列小工具，用来做些奇怪的事情。
+A series of small tools to do strange things. 
+# Installation 
+Ensure that the PHP version is above 7.0.
 
-# 安装
-确保PHP版本在7.0以上。
+It is recommended via Composer to install
 
-推荐通过[Composer](https://getcomposer.org/)进行安装
+Please refer to the official configuration for the installation of Composer.
 
-Composer的安装请参考官方配置。
-
-安装好Composer后，在你的项目中创建一个 composer.json 文件：
+After installing Composer, create a composer.json file in your project: 
 ```json
 {
     "require": {
@@ -17,25 +16,24 @@ Composer的安装请参考官方配置。
 }
 ```
 
-然后在项目文件夹下执行:
+Then execute under the project folder: 
 ```bash
 $ composer install
 ```
 
-之后添加autoloader:
+After adding autoloader: 
 ```php
 <?php
 require "vendor/autoload.php";
 ```
 
-# navicat密码保存加解密
-原理参考 [how-does-navicat-encrypt-password](https://github.com/DoubleLabyrinth/how-does-navicat-encrypt-password)，有兴趣的可以自己研究下^^  
-
-使用方法如下：
+# Navicat password save encryption and decryption 
+For the principle, refer to [how-does-navicat-encrypt-password](https://github.com/DoubleLabyrinth/how-does-navicat-encrypt-password)，, if you are interested, you can study it by yourself^^ 
 ```php
 use FatSmallTools\NavicatPassword;
 
-//需要指定版本，11或12
+//Need to specify the version, 11 or 12
+
 $navicatPassword = new NavicatPassword(11);
 //$navicatPassword = new NavicatPassword(12);
 
