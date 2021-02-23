@@ -1,10 +1,10 @@
 {
-    "name": "tianhe1986/fatsmalltools",
+    "name": "goodarznia/fatsmalltools",
     "type": "library",
     "description": "some small tools",
     "keywords": ["tools"],
     "license": "MIT",
-    "homepage": "https://github.com/tianhe1986/FatSmallTools",
+    "homepage": "https://github.com/goodarznia/FatSmallTools",
     "require": {
         "php": "^7.0"
     },
