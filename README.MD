@@ -37,10 +37,10 @@ use FatSmallTools\NavicatPassword;
 $navicatPassword = new NavicatPassword(11);
 //$navicatPassword = new NavicatPassword(12);
 
-//加密
+//Encryption
 $encode = $navicatPassword->encrypt('123456'); // verstion 11 15057D7BA390, version 12 833E4ABBC56C89041A9070F043641E3B
 
-//解密
+//Decrypt 
 $decode = $navicatPassword->decrypt('15057D7BA390');
 //$decode = $navicatPassword->decrypt('833E4ABBC56C89041A9070F043641E3B');
 ```
